@@ -1,0 +1,1 @@
+sudo make view model=cube device=/dev/sdb target=/run/media/user/unit
