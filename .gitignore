@@ -281,8 +281,9 @@ TSWLatexianTemp*
 # Compiled Object files
 *.slo
 *.lo
-*.o
+# *.o
 # *.obj
+*out/*
 
 # Precompiled Headers
 *.gch
