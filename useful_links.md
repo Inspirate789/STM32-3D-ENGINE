@@ -27,7 +27,7 @@
 - [Аналог STM32](https://electronix.ru/forum/index.php?app=forums&module=forums&controller=topic&id=147725)
 - [Китайские аналоги STM32](https://www.linux.org.ru/forum/development/13992289)
 
-#### Популярные графические библиотеки, софт которых не предназначен для STM32 ( ¯\_(ツ)_/¯ ):
+#### Популярные графические библиотеки, софт которых не предназначен для STM32 ( ¯\\_(ツ)_/¯ ):
 - [OpenGL](https://www.khronos.org/opengl/wiki/Related_toolkits_and_APIs)
 - [Direct3D](https://docs.microsoft.com/en-us/windows/win32/direct3d11/atoc-dx-graphics-direct3d-11)
 - [Vulkan](https://www.vulkan.org)
