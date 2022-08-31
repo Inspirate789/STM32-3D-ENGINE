@@ -55,7 +55,13 @@ copy:
 	@sudo rm -rf $(target)1
 	@echo "Copy completed."
 
-view: build
+demo: build
+	make copy
+
+view: $(MODEL_DEPEND)
+	@cp $(DATA_SRC) $(3D_ENGINE_DATA_DIR)
+	@echo "Build: 3D Engine"
+	@cd $(3D_ENGINE_DIR) && make all flag=view && cd ..
 	make copy
 
 measuring_time: $(MODEL_DEPEND)

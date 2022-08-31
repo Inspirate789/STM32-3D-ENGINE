@@ -45,25 +45,25 @@ ostream &operator<<(ostream &os, const model_t &model)
     return os << endl;
 }
 
-void print_map(const string &comment, const map<string, color_t> &m)
-{
-    cout << comment;
+// void print_map(const string &comment, const map<string, color_t> &m)
+// {
+//     cout << comment;
     
-    for (const auto& [key, value] : m)
-        cout << '[' << key << "] = " << value << "; ";
+//     for (const auto& [key, value] : m)
+//         cout << '[' << key << "] = " << value << "; ";
     
-    cout << endl;
-}
+//     cout << endl;
+// }
 
-void print_map(const string &comment, const map<string, model_t> &m)
-{
-    cout << comment;
+// void print_map(const string &comment, const map<string, model_t> &m)
+// {
+//     cout << comment;
     
-    for (const auto& [key, value] : m)
-        cout << key << ": " << endl << value;
+//     for (const auto& [key, value] : m)
+//         cout << key << ": " << endl << value;
     
-    cout << endl;
-}
+//     cout << endl;
+// }
 
 vector<string> split(const string &str, char seperator)
 {

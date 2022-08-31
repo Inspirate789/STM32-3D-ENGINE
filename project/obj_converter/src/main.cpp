@@ -102,9 +102,9 @@ void write_data(const string &file_dst, const string &file_inc,
     file_h << "#include \"" << file_inc << "\"" << endl << endl;
 
     if (horizontal_orientation)
-        file_h << "#define HORIZONTAL_ORIENTATION" << endl;
+        file_h << "#define IMAGE_HORIZONTAL_ORIENTATION true" << endl;
     else
-        file_h << "#define VERTICAL_ORIENTATION" << endl;
+        file_h << "#define IMAGE_HORIZONTAL_ORIENTATION false" << endl;
 
     file_h << endl << endl << endl;
     write_polygons(file_h, polygons);

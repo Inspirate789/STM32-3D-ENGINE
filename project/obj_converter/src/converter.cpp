@@ -301,11 +301,9 @@ polygons_t convert_data(const std::map<std::string, model_t> &models,
             vector<vector3_t> light_vectors;
 
             for (auto & pos : lights)
-            {
                 light_vectors.push_back({center.x - pos.x,
                                          center.y - pos.y,
                                          center.z - pos.z});
-            }
             
             cur_polygon.color = convert_color(light_vectors,
                                               model.normals[surface.normal_index],

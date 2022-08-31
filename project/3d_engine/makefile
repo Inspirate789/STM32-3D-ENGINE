@@ -407,7 +407,9 @@ CXX_FLAGS += -DMBED_RAM_SIZE=0x60000
 CXX_FLAGS += -DMBED_RAM1_START=0x20000000
 CXX_FLAGS += -DMBED_RAM1_SIZE=0x20000
 
-ifeq ($(flag), measuring_time)
+ifeq ($(flag), view)
+	CXX_FLAGS += -DBUFFERIZE_OUTPUT
+else ifeq ($(flag), measuring_time)
 	CXX_FLAGS += -DMEASURING_TIME
 else ifeq ($(flag), measuring_memory)
 	CXX_FLAGS += -DMEASURING_MEMORY

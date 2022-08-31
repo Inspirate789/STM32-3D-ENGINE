@@ -31,8 +31,8 @@ struct model_t
 
 
 
-void print_map(const std::string &comment, const std::map<std::string, point3_t> &m);
-void print_map(const std::string &comment, const std::map<std::string, model_t> &m);
+// void print_map(const std::string &comment, const std::map<std::string, point3_t> &m);
+// void print_map(const std::string &comment, const std::map<std::string, model_t> &m);
 int read_materials(std::map<std::string, color_t> &materials, std::ifstream &file_mtl);
 int read_models(std::map<std::string, model_t> &models, std::ifstream &file_obj,
                 const std::map<std::string, color_t> &materials);
