@@ -2,7 +2,7 @@ LATEX_ARGS := -shell-escape
 
 .PHONY: build clean_trash clean
 
-explanatory_note.pdf: tex/build.sh tex/*.tex tex/*.bib tex/*.sty tex/*.module tex/*.clo tex/*.bst tex/*.cls tex/*.inc tex/*.layout
+explanatory_note.pdf: tex/build.sh tex/*.tex tex/*.bib tex/*.sty tex/*.module tex/*.clo tex/*.bst tex/*.cls tex/*.inc tex/*.layout tex/listings/* tex/img/*
 	make build
 	make clean_trash
 

@@ -2,7 +2,6 @@
 
 #### Общая информация:
 - [ARM (архитектура)](https://ru.wikipedia.org/wiki/ARM_(%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0))
-- [ARM developer documentation](https://developer.arm.com/documentation)
 - [ARM Introduction](https://www.electronicshub.org/arm-introduction/#Introduction)
 - [ARM vs x86 - Explained](https://www.section.io/engineering-education/arm-x86/)
 - [ARM против x86: В чем разница между двумя архитектурами процессоров?](https://habr.com/ru/company/droider/blog/519732/)
@@ -10,6 +9,10 @@
 - [STM32](https://ru.wikipedia.org/wiki/STM32#STM32_F7)
 - [STMicroelectronics: перспективы](https://www.compel.ru/lib/123541)
 - [STM32: эпоха 32-битных микроконтроллеров наступила](https://www.compel.ru/lib/53953)
+
+#### Подробнее про ARM:
+- [Arm Cortex-M7 Processor Datasheet](https://developer.arm.com/documentation/102838/0100)
+- [ARM developer documentation](https://developer.arm.com/documentation)
 
 #### Сравнение регистровой архитектуры ARM и x86:
 - [ARM registers](https://developer.arm.com/documentation/dui0473/m/overview-of-the-arm-architecture/arm-registers)
@@ -89,6 +92,7 @@
 - [Про профилирование памяти на STM32 более подробно](https://electronics.stackexchange.com/questions/363931/how-do-i-find-out-at-compile-time-how-much-of-an-stm32s-flash-memory-and-dynami)
 - [Определение размера использованного стека с помощью "красок" (Ужас!)](https://habr.com/ru/post/443030/)
 - [Счётчик тактов процессора STM32](https://stackoverflow.com/questions/36378280/stm32-how-to-enable-dwt-cycle-counter)
+- [Data Watchpoint and Trace Unit (DWT)](https://developer.arm.com/documentation/ddi0489/f/data-watchpoint-and-trace-unit)
 
 #### Про obj файлы:
 - [3D ML. Часть 1: формы представления 3D-данных](https://habr.com/ru/company/itmai/blog/503358/)
