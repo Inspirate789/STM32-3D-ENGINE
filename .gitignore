@@ -274,3 +274,53 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+# *.o
+*out/src/*.o
+*out/libs/*.o
+# *.obj
+*out/*
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Temporary headers with models data
+*/3d_engine/data/*
+*/obj_converter/data/*
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+# *.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.bin
+*.hex
+*.elf
+
+# Visual Studio Code configuration files
+*.vscode*
+
+# Makefile flags
+*.lastbuildstate
+*.lastconvert

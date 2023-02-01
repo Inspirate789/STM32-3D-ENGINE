@@ -1,0 +1,8 @@
+49-stlinkv1.rules
+49-stlinkv2-1.rules
+49-stlinkv2.rules
+49-stlinkv3.rules
+cleanup.sh
+pkg_rootdir_content.txt
+prompt_linux_license.sh
+setup.sh
