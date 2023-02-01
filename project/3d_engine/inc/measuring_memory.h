@@ -36,8 +36,8 @@ inline void print_stack_usage()
     char str[75];
     snprintf(str, 75, "max stack usage: %u bytes\nmax heap usage: %u bytes\n", 
         start_stack_top - min_stack_top, 
-        ((size_t)(trunc(log2(std::max(DISPLAY_WIDTH, DISPLAY_HEIGHT))) + 
-        2 * (trunc(log2(std::min(DISPLAY_WIDTH, DISPLAY_HEIGHT))) + 1) + 2)) * 
+        ((size_t)(ceil(log2(std::max(DISPLAY_WIDTH, DISPLAY_HEIGHT))) + 
+        2 * ceil(log2(std::min(DISPLAY_WIDTH, DISPLAY_HEIGHT))) + 1)) * 
         sizeof(window_t));
     print(str);
 }

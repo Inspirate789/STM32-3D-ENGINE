@@ -29,7 +29,7 @@ inline size_t max_stack_size(const window_t &window)
     size_t w = window.pend.x - window.pbeg.x;
     size_t h = window.pend.y - window.pbeg.y;                                                                   CHECK_STACK_TOP;
     
-    return trunc(log2(std::max(w, h))) + 2 * (trunc(log2(std::min(w, h))) + 1) + 2;
+    return ceil(log2(std::max(w, h))) + 2 * ceil(log2(std::min(w, h))) + 1;
 }
 
 inline wstack_t wstack_init()
